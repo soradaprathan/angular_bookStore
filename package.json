@@ -1,0 +1,58 @@
+{
+  "name": "bookstore",
+  "version": "0.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^18.13.0",
+    "npm": "^9.3.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^4.5.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "mdbootstrap": "^4.20.0",
+    "mongoose": "^6.9.1",
+    "morgan": "~1.9.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@types/connect-flash": "^0.0.37",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.5",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/mongoose": "^5.11.97",
+    "@types/passport": "^1.0.11",
+    "@types/passport-jwt": "^3.0.8",
+    "@types/passport-local": "^1.0.35",
+    "@types/passport-local-mongoose": "^6.1.1"
+  },
+  "description": "demo for comp229",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soradaprathan/COMP229-W2023-Week6.git"
+  },
+  "author": "Sorada Prathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soradaprathan/COMP229-W2023-Week6/issues"
+  },
+  "homepage": "https://github.com/soradaprathan/COMP229-W2023-Week6#readme"
+}
